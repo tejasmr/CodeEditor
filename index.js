@@ -1,5 +1,3 @@
-document.title = "Untitled";
-
 const textarea = document.querySelector('textarea')
 const lineNumbers = document.querySelector('.line-numbers')
 
