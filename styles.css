@@ -1,28 +1,34 @@
+body {
+  margin: 0px;
+  background: #282a3a;
+}
 .code-editor {
   display: inline-flex;
   gap: 10px;
   font-family: monospace;
-  line-height: 21px;
-  background: #282a3a;
   border-radius: 2px;
   padding: 20px 10px;
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
 }
 
 textarea {
-  line-height: 21px;
+  font-family: monospace;
+  font-size: 20px;
   overflow-y: hidden;
   padding: 0;
   border: 0;
   background: #282a3a;
   color: #FFF;
-  min-width: 500px;
   outline: none;
   resize: none;
 }
 
 .line-numbers {
-  width: 20px;
+  width: 5%;
   text-align: right;
+  padding-top: 3px;
 }
 
 .line-numbers span {
