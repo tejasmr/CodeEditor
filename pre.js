@@ -1,1 +1,1 @@
-document.title = "Untitled";
+document.title = "Code Editor";
